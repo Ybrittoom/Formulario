@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="MeuFormulario">
+        <div class="partePrincipal">
+
+            <h1 class="titulo1">Formulario Pessoal
+            </h1>
+
+            <div class="Pessoal"> 
+                <label class="label1" for="nome">Nome*</label>
+                <input class="input1" type="text" id="nome" name="nome" required>
+                <label class="label2" for="email">Email*:</label>
+                <input class="input2" type="text" id="email" name="email" required>
+                <label class="label3" for="numeroTelefone">Numero de Telefone*</label>
+                <input class="input3" type="tel" name="numeroTelefone" id="numeroTelefone" required>
+                <label class="label4" for="DataDeNascimento">Data De Nascimento*</label>
+                <input class="input4" type="date" id="DataDeNascimento" id="DataDeNascimento" required>
+            </div>
+
+
+        </div>
+        
+        <br>
+        <br>
+        <br>
+
+        <div class="EducaçaoEmpregos">
+            <h1 class="titulo2">Educaçao e Empregos</h1>
+
+            
+            <label class="label5" for="NivelDeEscolaridade">Nivel De Escolaridade*</label>
+            <input class="input5" type="number" id="NivelDeEscolaridade" name="NivelDeEscolaridade" required>
+            <label class="label6" for="profissao">profissao*</label>
+            <input class="input6" type="text" id="profissao" name="profissao" required>
+            <label class="label7" for="empresa">empresa*</label>
+            <input class="input7" type="text" id="empresa" name="empresa" required>
+            <label class="label8" for="AnosDeExperiencia">Anos De Experiencia*</label>
+            <input class="input8" type="number" id="AnosDeExperiencia" name="AnosDeExperiencia" required>
+        </div>
+
+        <div class="botao">
+            <button type="submit">Enviar</button>
+        </div>
+
+    </form>
+
+    <script src="scirpt.js"></script>
+</body>
+
+</html>

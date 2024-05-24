@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+
+
+}
+
+
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(57, 52, 52);
+}
+
+form {
+    padding-left: 30px;
+}
+
+.partePrincipal {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    border: 2px solid #494545;
+    width: 1000px;
+}
+
+.titulo1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Pessoal {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+}
+
+.Pessoal label{
+    padding-top: 15px;
+}
+
+
+
+input {
+    background-color: #494545;
+    color: white;
+}
+
+
+.EducaçaoEmpregos {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    border: 2px solid #494545;
+    padding: 20px;
+    color: white;
+    
+}
+
+
+.titulo2 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.EducaçaoEmpregos label {
+    padding-top: 15px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.botao button {
+    width: 200px; /* Define a largura do botão como 200 pixels */
+    height: 50px; /* Define a altura do botão como 50 pixels */
+    background-color: #000000;
+    font-size: 140%;
+    font-family: "Rubik", sans-serif;
+    border-radius: 10px;
+    color: white;
+    border: 2px solid #494545;
+}
